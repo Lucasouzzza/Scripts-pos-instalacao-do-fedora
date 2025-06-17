@@ -1,2 +1,2 @@
-Scripts utilizados para pos instalacao do fedora. Versao com Gnome e KDE plasma.
-OBS: O repositorio RPM fusion deve ser ajustado para a versao mais atual do fedora.
+# Scripts utilizados para a pós-instalação do Fedora, nas versões com GNOME e KDE Plasma.
+# OBS: O repositório RPM Fusion deve ser configurado para a versão mais atual do Fedora.

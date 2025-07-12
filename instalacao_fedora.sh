@@ -4,13 +4,13 @@
 # Use no terminal: bash instalacao_fedora.sh
 
 # Instalando pacotes essenciais
-sudo dnf install -y btrfs-assistant gnome-tweaks adw-gtk3-theme podman-docker
+sudo dnf install -y timeshift gnome-tweaks adw-gtk3-theme podman-docker papers
 
 # Para extencoes
 sudo dnf install -y libgda libgda-sqlite openssl nautilus-python nautilus-extensions evolution-data-server
 
 # Removendo pacotes indesejados
-sudo dnf remove -y rhythmbox
+sudo dnf remove -y rhythmbox evince 
 
 # Atualizando o sistema
 sudo dnf upgrade -y
@@ -40,15 +40,17 @@ sudo dnf install -y curl cabextract xorg-x11-font-utils fontconfig
 sudo dnf install -y https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 
 # Instalando pacotes Flatpak
-flatpak install -y flathub com.github.marhkb.Pods de.haeckerfelix.Fragments org.gnome.DejaDup org.gimp.GIMP com.mattjakeman.ExtensionManager org.gnome.Geary org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+flatpak install -y flathub com.github.marhkb.Pods de.haeckerfelix.Fragments org.gnome.DejaDup org.gimp.GIMP com.mattjakeman.ExtensionManager org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+org.gnome.Evolution com.vscodium.codium com.rtosta.zapzap io.github.alainm23.planify com.simplenote.Simplenote io.github.pieterdd.RcloneShuttle io.github.cleomenezesjr.Serigy org.gnome.Showtime
+com.github.neithern.g4music org.inkscape.Inkscape com.github.maoschanz.drawing nl.emphisia.icon
 
 # Instalando tema para o Firefox
-git clone https://github.com/rafaelmardojai/firefox-gnome-theme.git
-cd firefox-gnome-theme
-chmod +x ./scripts/auto-install.sh
-./scripts/auto-install.sh || echo "A instalacao automatica do tema do Firefox falhou."
-cd ..
-rm -rf firefox-gnome-theme  # Remove a pasta apos a instalacao
+# git clone https://github.com/rafaelmardojai/firefox-gnome-theme.git
+# cd firefox-gnome-theme
+# chmod +x ./scripts/auto-install.sh
+# ./scripts/auto-install.sh || echo "A instalacao automatica do tema do Firefox falhou."
+# cd ..
+# rm -rf firefox-gnome-theme  # Remove a pasta apos a instalacao
 
 # Instalando Anki
 wget https://github.com/ankitects/anki/releases/download/25.02.7/anki-25.02.7-linux-qt6.tar.zst

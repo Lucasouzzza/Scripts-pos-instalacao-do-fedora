@@ -40,9 +40,7 @@ sudo dnf install -y curl cabextract xorg-x11-font-utils fontconfig
 sudo dnf install -y https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 
 # Instalando pacotes Flatpak
-flatpak install -y flathub com.github.marhkb.Pods de.haeckerfelix.Fragments org.gnome.DejaDup org.gimp.GIMP com.mattjakeman.ExtensionManager org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
-org.gnome.Evolution com.vscodium.codium com.rtosta.zapzap io.github.alainm23.planify com.simplenote.Simplenote io.github.pieterdd.RcloneShuttle io.github.cleomenezesjr.Serigy org.gnome.Showtime
-com.github.neithern.g4music org.inkscape.Inkscape com.github.maoschanz.drawing nl.emphisia.icon
+flatpak install -y flathub com.github.marhkb.Pods de.haeckerfelix.Fragments org.gnome.DejaDup org.gimp.GIMP com.mattjakeman.ExtensionManager org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark org.gnome.Evolution com.vscodium.codium com.rtosta.zapzap io.github.alainm23.planify com.simplenote.Simplenote io.github.pieterdd.RcloneShuttle io.github.cleomenezesjr.Serigy org.gnome.Showtime com.github.neithern.g4music org.inkscape.Inkscape com.github.maoschanz.drawing nl.emphisia.icon
 
 # Instalando tema para o Firefox
 # git clone https://github.com/rafaelmardojai/firefox-gnome-theme.git

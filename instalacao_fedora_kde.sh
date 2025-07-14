@@ -7,7 +7,7 @@
 sudo dnf upgrade -y
 
 # Instalando pacotes essenciais
-sudo dnf install -y timeshift podman-docker plymouth-theme-breeze gwenview rclone-browser transmission-qt vlc okular ksystemlog kamoso korganizer kcalc
+sudo dnf install -y timeshift podman-docker plymouth-theme-breeze gwenview rclone-browser transmission-qt vlc okular ksystemlog kamoso korganizer kcalc appimagelauncher gimp
 
 # Removendo pacotes desnecessarios
 sudo dnf remove plasma-thunderbolt gnome-disk-utility  gnome-abrt
@@ -69,7 +69,7 @@ sudo dnf install -y curl cabextract xorg-x11-font-utils fontconfig
 sudo dnf install -y https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 
 # Instalando pacotes Flatpak
-flatpak install -y flathub org.onlyoffice.desktopeditors org.gimp.GIMP
+flatpak install -y flathub org.onlyoffice.desktopeditors org.inkscape.Inkscape org.kde.kolourpaint
 
 # Instalando Anki
 wget https://github.com/ankitects/anki/releases/download/25.02.7/anki-25.02.7-linux-qt6.tar.zst

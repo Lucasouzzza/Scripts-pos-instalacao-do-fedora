@@ -26,6 +26,9 @@ sudo dnf swap -y ffmpeg-free ffmpeg --allowerasing
 sudo dnf groupupdate -y multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 sudo dnf install -y amrnb amrwb faad2 flac gpac-libs lame libde265 libfc14audiodecoder mencoder x264 x265
 
+# Para miniaturas de videos
+sudo dnf install -y ffmpegthumbnailer
+
 # Ativando a aceleracao por hardware (opcional)
 sudo dnf swap -y mesa-va-drivers mesa-va-drivers-freeworld
 sudo dnf swap -y mesa-vdpau-drivers mesa-vdpau-drivers-freeworld

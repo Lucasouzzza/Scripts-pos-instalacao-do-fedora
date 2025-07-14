@@ -69,7 +69,7 @@ sudo dnf install -y curl cabextract xorg-x11-font-utils fontconfig
 sudo dnf install -y https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 
 # Instalando pacotes Flatpak
-flatpak install -y flathub org.onlyoffice.desktopeditors org.inkscape.Inkscape org.kde.kolourpaint com.vscodium.codium
+flatpak install -y flathub org.onlyoffice.desktopeditors org.inkscape.Inkscape org.kde.kolourpaint com.vscodium.codium com.rtosta.zapzap org.mozilla.Thunderbird
 
 # Instalando Anki
 wget https://github.com/ankitects/anki/releases/download/25.02.7/anki-25.02.7-linux-qt6.tar.zst

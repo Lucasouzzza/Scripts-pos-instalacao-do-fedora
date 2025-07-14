@@ -43,12 +43,12 @@ sudo dnf install -y https://downloads.sourceforge.net/project/mscorefonts2/rpms/
 flatpak install -y flathub com.github.marhkb.Pods de.haeckerfelix.Fragments org.gnome.DejaDup org.gimp.GIMP com.mattjakeman.ExtensionManager org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark org.gnome.Evolution com.vscodium.codium com.rtosta.zapzap io.github.alainm23.planify com.simplenote.Simplenote io.github.pieterdd.RcloneShuttle io.github.cleomenezesjr.Serigy org.gnome.Showtime com.github.neithern.g4music org.inkscape.Inkscape com.github.maoschanz.drawing nl.emphisia.icon
 
 # Instalando tema para o Firefox
-# git clone https://github.com/rafaelmardojai/firefox-gnome-theme.git
-# cd firefox-gnome-theme
-# chmod +x ./scripts/auto-install.sh
-# ./scripts/auto-install.sh || echo "A instalacao automatica do tema do Firefox falhou."
-# cd ..
-# rm -rf firefox-gnome-theme  # Remove a pasta apos a instalacao
+ git clone https://github.com/rafaelmardojai/firefox-gnome-theme.git
+ cd firefox-gnome-theme
+ chmod +x ./scripts/auto-install.sh
+ ./scripts/auto-install.sh || echo "A instalacao automatica do tema do Firefox falhou."
+ cd ..
+ rm -rf firefox-gnome-theme  # Remove a pasta apos a instalacao
 
 # Instalando Anki
 wget https://github.com/ankitects/anki/releases/download/25.02.7/anki-25.02.7-linux-qt6.tar.zst
